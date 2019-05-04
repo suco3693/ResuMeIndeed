@@ -1,0 +1,19 @@
+{
+  "name": "resumeindeed",
+  "version": "1.0.0",
+  "description": "a resume keyword finder that searches jobs off those keywords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suco3693/ResuMeIndeed.git"
+  },
+  "author": "Sutton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suco3693/ResuMeIndeed/issues"
+  },
+  "homepage": "https://github.com/suco3693/ResuMeIndeed#readme"
+}
