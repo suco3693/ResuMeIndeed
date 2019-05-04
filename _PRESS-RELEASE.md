@@ -1,4 +1,4 @@
-# Project Name #
+# ResuMeIndeed #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -19,11 +19,18 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+  Keyword finding and job searching web application
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  An application to search through plain text resumes and determine software engineering words present and possibly do a indeed job search on those words
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+
+  Matching your resume to job posts can be hard and confusing. What are they looking for? Does my resume include the right skills for the job. Well now with ResuMeIndeed 
+  we can ease your worries by making sure your resume matches the jobs you are looking at. We will comb through your resume and find the top key words you present and 
+  do a indeed job search with those words for you.
 
 ## Problem ##
   > Describe the problem your product solves.
