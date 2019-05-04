@@ -34,18 +34,22 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Problem ##
   > Describe the problem your product solves.
+  A way to tailor your job search to your resume to increase probability of landing a job with your skillsets
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  By combing through your resume for you and checking it again a extensive database of keywords, ResuMeIndeed can reduce to hassle of the job search process
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
-
+  "ResuMeIndeed indeedly does tailer job searching to me, it's like having a career counselor at my side through the whole process."
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Just input your plain text resume!
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
+  "I used this"
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  -Readers should go use the app next
