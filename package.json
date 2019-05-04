@@ -4,7 +4,8 @@
   "description": "a resume keyword finder that searches jobs off those keywords",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/server.js",
+    "build" : "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/suco3693/ResuMeIndeed/issues"
   },
-  "homepage": "https://github.com/suco3693/ResuMeIndeed#readme"
+  "homepage": "https://github.com/suco3693/ResuMeIndeed#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
 }
