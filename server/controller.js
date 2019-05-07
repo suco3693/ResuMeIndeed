@@ -13,6 +13,19 @@ const controller = {
         res.send(data);
       }
     })
+  },
+  updateAll: (incrementWords)=>{
+    console.log(incrementWords);
+    incrementWords.forEach((keyword)=>{
+      keywords.findOneAndUpdate({'keyword': keyword},{$inc :{'weight': 1}},{upsert : true},(err, responce)=>{
+        if(err){
+          console.log(err);
+          return err;
+        } else {
+          return responce;
+        }
+      })
+    })
   }
 }
 

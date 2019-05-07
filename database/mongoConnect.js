@@ -28,3 +28,7 @@ const keywords = mongoose.model('keywords', keywordSchema);
 
 
 module.exports=keywords;
+
+
+//Seed import line
+//mongoimport --db keywords --collection keywords --drop --file /mnt/c/Users/suco3/OneDrive/Desktop/HackReactorPrep/MVP/Keywords.csv --type csv --headerline
