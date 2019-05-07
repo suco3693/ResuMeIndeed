@@ -1,34 +1,34 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/keywords', { useNewUrlParser: true, useCreateIndex: true,});
+mongoose.connect('mongodb://127.0.0.1:27017/keywords', { useNewUrlParser: true, useCreateIndex: true });
 
 const db = mongoose.connection;
-db.on('error', (err)=>{
-  console.log("Connection Error", err);
-})
+db.on('error', (err) => {
+  console.log('Connection Error', err);
+});
 
-db.once('open', ()=>{
-  console.log('database connected')
-})
+db.once('open', () => {
+  console.log('database connected');
+});
 
 const keywordSchema = new mongoose.Schema({
-  keyword : {
+  keyword: {
     type: String,
-    required : true,
-    unique : true
+    required: true,
+    unique: true,
   },
-  weight : {
+  weight: {
     type: Number,
     required: true,
-    unique: false
-  }
-})
+    unique: false,
+  },
+});
 
 const keywords = mongoose.model('keywords', keywordSchema);
 
 
-module.exports=keywords;
+module.exports = keywords;
 
 
-//Seed import line
-//mongoimport --db keywords --collection keywords --drop --file /mnt/c/Users/suco3/OneDrive/Desktop/HackReactorPrep/MVP/Keywords.csv --type csv --headerline
+// Seed import line
+// mongoimport --db keywords --collection keywords --drop --file /mnt/c/Users/suco3/OneDrive/Desktop/HackReactorPrep/MVP/Keywords.csv --type csv --headerline
