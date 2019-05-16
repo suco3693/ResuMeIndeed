@@ -1,4 +1,4 @@
-# ResuMeIndeed #
+#Search4ResuMe#
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -28,7 +28,7 @@ Once the project moves into development, the press release can be used as a touc
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
-  Matching your resume to job posts can be hard and confusing. What are they looking for? Does my resume include the right skills for the job. Well now with ResuMeIndeed 
+  Matching your resume to job posts can be hard and confusing. What are they looking for? Does my resume include the right skills for the job. Well now with Search4ResuMe 
   we can ease your worries by making sure your resume matches the jobs you are looking at. We will comb through your resume and find the top key words you present and 
   do a job search with those words for you.
 
@@ -38,11 +38,11 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
-  By combing through your resume for you and checking it again a extensive database of keywords, ResuMeIndeed can reduce to hassle of the job search process
+  By combing through your resume for you and checking it again a extensive database of keywords, Search4ResuMe can reduce to hassle of the job search process
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
-  "ResuMeIndeed indeedly does tailer job searching to me, it's like having a career counselor at my side through the whole process."
+  "Search4ResuMe indeedly does tailer job searching to me, it's like having a career counselor at my side through the whole process."
 ## How to Get Started ##
   > Describe how easy it is to get started.
   Just input your plain text resume!
