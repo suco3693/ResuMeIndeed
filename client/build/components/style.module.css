@@ -1,0 +1,56 @@
+body{
+  background-color: ivory;
+}
+input[type='button']{
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.spaceUpload {
+  margin: 20px;
+}
+.searchWordCont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.searchWord{
+  border-style: double;
+  border-color: black;
+  margin: 10px;
+}
+
+.jobCont{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.jobPost{
+  border-style: solid;
+  border-color: #90b3b3;
+  margin: 5px;
+}
+
+.companyLogo{
+  height: 50px;
+  width: 50px;
+}
+
+.description{
+  font-size: small;
+}
+
+.company{
+  font-size: large;
+}
+
+.returnHome{
+  width: 20%;
+  height: 20%;
+}

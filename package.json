@@ -6,18 +6,18 @@
   "scripts": {
     "start": "nodemon server/server.js",
     "build": "webpack --config webpack.config.js",
-    "linter": "npx eslint . "
+    "linter": "npx eslint . --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suco3693/ResuMeIndeed.git"
+    "url": "git+ https://github.com/suco3693/Search4ResuMe.git"
   },
   "author": "Sutton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suco3693/ResuMeIndeed/issues"
+    "url": "https://github.com/suco3693/Search4ResuMe/issues"
   },
-  "homepage": "https://github.com/suco3693/ResuMeIndeed#readme",
+  "homepage": "https://github.com/suco3693/Search4ResuMe#readme",
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/preset-react": "^7.0.0",

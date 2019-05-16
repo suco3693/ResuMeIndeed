@@ -19,7 +19,7 @@ coverage
 .grunt
 
 # Compiled Dirs (http://nodejs.org/api/addons.html)
-build/
+
 dist/
 
 # Dependency directorys
@@ -34,5 +34,6 @@ bower_components/
 .floo
 .flooignore
 
+client/public/bundle.js
 
 authJobs.js
